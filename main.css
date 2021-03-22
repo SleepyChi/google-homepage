@@ -50,8 +50,9 @@ table {
 /*---------End of Reset----------*/
 
 body {
-    height: 100%;
     display: flex;
+    height: 100%;
+    width: 100%;
     flex-direction: column;
     font-size: 14px;
     font-family: arial, sans-serif;
@@ -74,13 +75,24 @@ main {
     align-items: center;
     padding: 6px;
     height: 60px;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
 #navbar a {
     display: inline-block;
     padding: 5px;
-    margin: 0 5px;
+    margin: 0 5px 0 15px;
     color: #222;
+}
+
+/*#nav-left {
+    margin: 0 5px;
+    padding: 5px;
+}*/
+
+#store {
+    margin-left: 5px;
 }
 
 #nav-right {
@@ -88,6 +100,26 @@ main {
     float: right;
 }
 
+#apps{
+    height: 35px;
+    vertical-align: middle;
+}
+
+#apps path {
+    fill: #5f6368;
+}
+
+#sign-in {
+    color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    padding: 9px 23px;
+    border-radius: 4px;
+}
 #logo {
     display: flex;
 }

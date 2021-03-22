@@ -6,23 +6,39 @@
         <title>Google</title>
     </head>
     <body>
-        <nav id="navbar">
-            <a href="">About</a>
-            <a href="">Store</a>
-            <div id="nav-right">
-                <a href="">Gmail</a>
-                <a href="">Images</a>
-                <button>Sign in</button>
-            </div>  
-        </nav>
+        <header>
+            <nav id="navbar">
+                <div id="nav-left">
+                    <a href="" id="about">About</a>
+                    <a href="" id="store">Store</a>
+                </div>
+                <div id="nav-right">
+                    <a href="">Gmail</a>
+                    <a href="">Images</a>
+                    <svg id="apps" viewBox="0 -5 35 35">
+                        <!--<circle cx="37" r="4"></circle>
+                        <circle cx="50" r="4"></circle>
+                        <circle cx="74" r="4"></circle>
+                        <circle cx="37" cy="37" r="40"></circle>
+                        <circle cy="37" r="40"></circle>
+                        <circle cx="74" cy="37" r="40"></circle>
+                        <circle cx="37" cy="74" r="40"></circle>
+                        <circle cy="74" r="40"></circle>
+                        <circle cx="74" cy="74" r="40"></circle>-->
+                        <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                    </svg>
+                    <button id="sign-in">Sign in</button>
+                </div>  
+            </nav>
+        </header>
         <main>
             <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" />
             <form id="search">
                 <fieldset>
                     <input type="text" id="search-bar">
                     <div id="search-buttons" >
-                        <button>Google Search</button>
-                        <button>I'm Feeling Lucky</button>
+                        <button id="google_search">Google Search</button>
+                        <button id="lucky">I'm Feeling Lucky</button>
                     </div>  
                 </fieldset>
             </form>
