@@ -73,36 +73,45 @@ main {
 #navbar {
     display: flex;
     align-items: center;
-    padding: 6px;
     height: 60px;
+    padding: 6px;
     justify-content: space-between;
     box-sizing: border-box;
 }
 
-#navbar a {
+#nav-left a {
     display: inline-block;
     padding: 5px;
-    margin: 0 5px 0 15px;
+    margin: 0 5px 0 5px;
     color: #222;
 }
 
-/*#nav-left {
-    margin: 0 5px;
-    padding: 5px;
-}*/
-
-#navbar a #store {
-    margin-left: 5px;
+#nav-left #about {
+    margin-left: 15px;
 }
 
 #nav-right {
-    display: inline-block;
     float: right;
+    font-size: 13px;
+    height: 48px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+#nav-right a {
+    display: inline-block;
+    color: #222;
+    line-height: 24px;
+}
+
+#images {
+    padding-left: 15px;
 }
 
 #apps{
     height: 35px;
-    vertical-align: middle;
+    vertical-align: middle;    
+    padding-left: 12px;
 }
 
 #apps path {
@@ -119,7 +128,9 @@ main {
     font-weight: 500;
     padding: 9px 23px;
     border-radius: 4px;
+    min-width: 96px;
 }
+
 #logo {
     display: flex;
 }
