@@ -48,11 +48,15 @@ table {
 }
 
 /*---------End of Reset----------*/
+html {
+    overflow: hidden;
+}
 
 body {
     display: flex;
-    height: 100%;
-    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
     flex-direction: column;
     font-size: 14px;
     font-family: arial, sans-serif;
@@ -68,6 +72,13 @@ main {
     flex-direction: column;
     align-items: center;
 
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #f2f2f2;
+    padding: 0 20px;
 }
 
 #navbar {
