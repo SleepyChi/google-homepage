@@ -137,13 +137,11 @@ main {
 
 #search {
     padding: 20px;
-    padding-top: 6px;
     position: relative;
     margin: 0 auto;
     display: block;
-    width: auto;
+    width: 100%;
     max-width: 584px;
-
 }
 
 #search-bar{
@@ -151,12 +149,20 @@ main {
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     height: 44px;
-    width: auto;
+    width: 100%;
     max-width: 584px;
+    padding-top: 0%;
+    margin-top: 6px;
 }
 
+#search-buttons {
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+}
 #search-buttons button {
-
+    font-family: arial, sans-serif;
+    font-size: 14px;
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
